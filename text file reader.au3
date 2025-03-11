@@ -3,9 +3,8 @@
 #include <MsgBoxConstants.au3>     ; For message box icons like $MB_ICONERROR and $MB_ICONINFORMATION
 
 ; Define the file path
-Global $sFilePath = "C:\Users\manthan\Desktop\WindowLog.txt"
+Global $sFilePath = "C:\Users\manthan\Desktop\hi.txt"
 
-; Open the file in read mode
 Global $hFile = FileOpen($sFilePath, $FO_READ)
 
 ; Check if the file was opened successfully
