@@ -36,3 +36,9 @@ While 1
     EndSwitch
 WEnd
 
+Func CreateButton($sText, $iX, $iY, $iWidth, $iHeight)
+    Local $hButton = GUICtrlCreateButton($sText, $iX, $iY, $iWidth, $iHeight)
+    GUICtrlSetFont($hButton, 14, 400, Default, "Arial")
+    Return $hButton
+EndFunc
+
