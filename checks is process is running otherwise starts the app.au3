@@ -16,4 +16,4 @@ Else
     If @error Then
         MsgBox(16, "Error", "Failed to start " & $process & ". Check if the application exists.")
     EndIf
-EndIfn
+EndIf
